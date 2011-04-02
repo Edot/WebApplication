@@ -21,8 +21,8 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             DateTime d = Convert.ToDateTime("9:58:45 PM");
-            Response.Write("d: " + d);
-           Response.Write("<br>Time: " +  d.ToString("H:mm"));
+          //  Response.Write("d: " + d);
+         //  Response.Write("<br>Time: " +  d.ToString("H:mm"));
 
         }
 
