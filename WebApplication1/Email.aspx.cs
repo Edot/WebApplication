@@ -24,6 +24,11 @@ namespace WebApplication1
           //  Response.Write("d: " + d);
          //  Response.Write("<br>Time: " +  d.ToString("H:mm"));
 
+
+
+
+
+
         }
 
         protected void btnSend_Click(object sender, System.EventArgs e)
