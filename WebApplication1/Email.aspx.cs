@@ -20,11 +20,20 @@ namespace WebApplication1
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            DateTime d = Convert.ToDateTime("9:58:45 PM");
+            DateTime d = Convert.ToDateTime("9:58:45");
           //  Response.Write("d: " + d);
            Response.Write("<br>Time: " +  d.ToString("H:mm"));
 
             ///
+           DateTime dateTime1, dateTime2;
+           dateTime1 = DateTime.Parse("9:58:45");
+
+           dateTime2 = DateTime.Parse("10:01:08");
+
+            //Find the Difference 
+
+            TimeSpan timeDiff = dateTime2.Subtract(dateTime1);
+            Response.Write("<br>timeDiff: " + timeDiff);
 
 
 
