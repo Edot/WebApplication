@@ -34,11 +34,16 @@ namespace WebApplication1
 
             TimeSpan timeDiff = dateTime2.Subtract(dateTime1);
             Response.Write("<br>timeDiff: " + timeDiff);
+            Response.Write("<br>timeDiff.TotalMinutes: " + timeDiff.TotalMinutes.ToString().Substring(0, 1));
 
+            string strTest = "07:12 PM 03/15/11 CARD READER 01.2 01250                ,3/15/2011 7:57:26 PM";
+            
+            
+            
+            //11 CARD READER 01.2 01250                GRANTED,3/15/2011 7:57:26 PM";
+            string [] arrValues = strTest.Split(' ');
 
-
-
-
+          
 
         }
 
